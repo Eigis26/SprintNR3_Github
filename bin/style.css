@@ -8,11 +8,11 @@
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg.jpg);
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-size: cover;
-  position: relative;
+  padding-bottom: 15%;
 }
 header nav {
   display: flex;
@@ -21,6 +21,7 @@ header nav {
   padding: 1rem 0 1rem 0;
   position: -webkit-sticky;
   position: sticky;
+  align-items: center;
 }
 header nav ul {
   display: flex;
@@ -60,6 +61,7 @@ nav > ul > li:hover {
 .header-text .texth1 {
   color: rgb(231, 221, 221);
   font-size: 8rem;
+  margin-top: 3rem;
 }
 .header-text .textp {
   color: rgb(231, 221, 221);
@@ -128,4 +130,70 @@ nav > ul > li:hover {
   margin: 4rem 0 0 10rem;
   padding-top: 3.5rem;
   color: white;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg.jpg);
+  margin-top: 1rem;
+  background-position: center;
+  background-size: cover;
+}
+
+footer > p {
+  font-size: 3.5rem;
+  min-height: 8rem;
+  color: white;
+  background-color: rgba(83, 75, 75, 0.5);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 1.5rem;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+}
+
+input[type=submit] {
+  background-color: rgb(184, 48, 24);
+  margin: 2rem 0 4rem 0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.name {
+  width: 25%;
+  margin-top: 6px;
+}
+
+.in-name {
+  width: 40%;
+  margin-top: 6px;
+}
+
+.cont-box {
+  background-color: rgba(83, 75, 75, 0.5);
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
