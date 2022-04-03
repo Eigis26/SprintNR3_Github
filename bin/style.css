@@ -225,4 +225,31 @@ input[type=submit] {
   margin-left: 25%;
   margin-right: 25%;
   margin: 20rem 25% 0 25%;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+.imgs {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.imgs img {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.maint {
+  margin-top: 3rem;
+}
+.maint h2 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
