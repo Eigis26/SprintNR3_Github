@@ -28,4 +28,5 @@ Script source code you can open with Visual Studio Code or with another script e
 
 Eigirdas Anciūnas 2022-04-04
 
-[Linked in](www.linkedin.com/in/eigirdas-anciūnas-b04a60231/)
+Linked in
+ www.linkedin.com/in/eigirdas-anciūnas-b04a60231/
